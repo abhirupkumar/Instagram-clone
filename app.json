@@ -1,33 +1,37 @@
 {
   "expo": {
-    "name": "WhatsappClone",
-    "slug": "WhatsappClone",
-    "version": "1.0.0",
+    "name": "Instagram",
+    "slug": "InstagramClone",
+    "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/instagram-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "image": "./assets/instagram-splash-screen.png",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/instagram-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.abhirup.InstagramClone"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "08fac6c6-0d46-4f03-8b63-4d2c9d79ade5"
+      }
     }
   }
 }
